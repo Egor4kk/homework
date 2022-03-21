@@ -54,7 +54,7 @@ int main(int argc, const char** argv) {
             if (argc == 4) {
                 int base = atoi(data);
                 int power = atoi(argv[3]);
-                int res = custom_power(base, power);    // TODO(Kosan4kk): Implement me
+                int res = custom_power(base, power);    // TODO(Egor4kk): Implement me
                 printf("%i\n", res);
             } else {
                 return ERR_ARGS_COUNT;
