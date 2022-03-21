@@ -20,12 +20,12 @@ build: $(TARGET)
 rebuild: clean build
 
 check:
-        chmod 700 run_linters.sh 
-	./run_linters.sh
+    chmod 700 run_linters.sh
+    ./run_linters.sh
 
 test: $(TARGET)
-	chmod 700 btests/run.sh
-	./btests/run.sh $(TARGET)
-
+    chmod 700 btests/run.sh
+    ./btests/run.sh $(TARGET)
+    
 clean:
 	rm -rf $(TARGET)
